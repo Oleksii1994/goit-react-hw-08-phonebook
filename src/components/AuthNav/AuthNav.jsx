@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 // import css from './AuthNav.module.css';
 import { RegisterLogInLink } from './AuthNav.styled';
 
