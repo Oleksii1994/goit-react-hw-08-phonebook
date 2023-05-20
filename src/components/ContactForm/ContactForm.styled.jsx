@@ -13,9 +13,8 @@ export const Form = styled.form`
   width: 360px;
   height: 156px;
   border-radius: 12px;
-  box-shadow: 0px 8px 16px rgba(0, 255, 255, 0.5),
-    0px 4px 8px rgba(0, 255, 255, 0.5), 0px 4px 8px rgba(0, 255, 255, 0.5),
-    0px 8px 16px rgba(0, 255, 255, 0.5);
+  box-shadow: 0px 8px 16px rgb(255 0 161 / 63%), 0px 4px 8px rgb(41 0 255 / 82%),
+    0px 4px 8px rgb(0 204 255 / 0%), 0px 8px 16px rgb(0 218 255);
 `;
 
 export const Label = styled.label`

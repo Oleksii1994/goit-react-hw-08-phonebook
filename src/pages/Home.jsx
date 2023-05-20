@@ -1,6 +1,6 @@
 const styles = {
   container: {
-    minHeight: 'calc(100vh - 50px)',
+    minHeight: 'calc(80vh - 50px)',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -14,12 +14,9 @@ const styles = {
 
 export default function Home() {
   return (
-    <div style={styles.container}>
-      <h1 style={styles.title}>
-        Task manager welcome page{' '}
-        <span role="img" aria-label="Greeting icon">
-          💁‍♀️
-        </span>
+    <div className="hero-section" style={styles.container}>
+      <h1 className="hero-title" style={styles.title}>
+        PhoneBook{' '}
       </h1>
     </div>
   );
