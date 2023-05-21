@@ -1,6 +1,19 @@
 import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 
+export const LogoLink = styled.div`
+  color: rgb(190 127 175);
+  cursor: unset;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  text-shadow: rgb(255 255 255 / 67%) 0px 0px 1px, rgb(0 0 0) 0px 0px 1px,
+    rgb(255 255 255 / 0%) 0px 0px 8px, rgb(17 0 255 / 78%) 0px 0px 12px,
+    rgb(199 0 255 / 0%) 0px 0px 82px, rgb(197 0 255) 0px 0px 72px,
+    rgb(226 0 255 / 0%) 0px 0px 102px, rgb(255 0 233) 0px 0px 151px;
+`;
+
 export const HomeLink = styled(NavLink)`
   height: 32px;
   margin: 0;
