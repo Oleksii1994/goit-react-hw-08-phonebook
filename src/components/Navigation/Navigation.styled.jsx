@@ -1,6 +1,12 @@
 import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 
+export const Nav = styled.nav`
+  display: flex;
+  alignitems: center;
+  gap: 4px;
+`;
+
 export const LogoLink = styled.div`
   color: rgb(190 127 175);
   cursor: unset;
@@ -18,7 +24,7 @@ export const HomeLink = styled(NavLink)`
   height: 32px;
   margin: 0;
   line-height: 43px;
-  padding: 5px 10px;
+  padding: 5px 8px;
 
   font-size: 1rem;
   font-weight: 700;
@@ -40,7 +46,7 @@ export const ContactsLink = styled(NavLink)`
   height: 32px;
   margin: 0;
   line-height: 43px;
-  padding: 5px 10px;
+  padding: 5px 8px;
 
   font-size: 1rem;
   font-weight: 700;

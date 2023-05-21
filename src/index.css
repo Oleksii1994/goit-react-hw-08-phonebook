@@ -1,8 +1,8 @@
 @import-normalize; /* bring in normalize.css styles */
 
 body {
-  margin: 0;
-  padding: 10vh 25vw;
+  margin: 0 auto;
+  padding: 10vh;
   height: auto;
   color: #ffffff;
   background-color: #191818;
@@ -55,11 +55,14 @@ a {
   justify-content: center;
   text-align: center;
 }
+
 header {
   display: inline-flex;
   justify-content: space-around;
   align-items: center;
-  gap: 88px;
+  gap: 64px;
+  min-width: 320px;
+  max-width: 760px;
   min-height: 60px;
   width: 100%;
   border-radius: 8px;

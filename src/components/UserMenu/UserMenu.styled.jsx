@@ -4,6 +4,8 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 12px;
+
+  padding: 0 8px;
 `;
 
 export const LogOutBtn = styled.button`

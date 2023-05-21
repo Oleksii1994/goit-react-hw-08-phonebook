@@ -4,7 +4,7 @@ export const AuthNav = () => {
   return (
     <AuthNavBox>
       <RegisterLogInLink to="/register">Register</RegisterLogInLink>
-      <RegisterLogInLink to="/login">Log In</RegisterLogInLink>
+      <RegisterLogInLink to="/login">LogIn</RegisterLogInLink>
     </AuthNavBox>
   );
 };

@@ -1,13 +1,13 @@
 import { useAuth } from 'hooks';
 import { FaPhoneSquare } from 'react-icons/fa';
-import { LogoLink, HomeLink, ContactsLink } from './Navigation.styled';
+import { Nav, LogoLink, HomeLink, ContactsLink } from './Navigation.styled';
 import { useLocation } from 'react-router';
 
 export const Navigation = () => {
   const { isLoggedIn } = useAuth();
   const location = useLocation();
   return (
-    <nav style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+    <Nav>
       {location.pathname === '/' ? (
         <LogoLink>
           <FaPhoneSquare
@@ -23,6 +23,6 @@ export const Navigation = () => {
         <HomeLink to="/">Home</HomeLink>
       )}
       {isLoggedIn && <ContactsLink to="/contacts">Contacts</ContactsLink>}
-    </nav>
+    </Nav>
   );
 };
