@@ -13,8 +13,8 @@ export const Form = styled.form`
   width: 360px;
   height: 156px;
   border-radius: 12px;
-  box-shadow: 0px 8px 16px rgb(255 0 161 / 63%), 0px 4px 8px rgb(41 0 255 / 82%),
-    0px 4px 8px rgb(0 204 255 / 0%), 0px 8px 16px rgb(0 218 255);
+  box-shadow: 0px 8px 16px rgb(255 72 0 / 69%), 0px 4px 8px rgb(0 52 255 / 82%),
+    0px 4px 8px rgb(0 204 255 / 0%), 0px 8px 16px rgb(0 223 255);
 `;
 
 export const Label = styled.label`
@@ -49,9 +49,9 @@ export const SubmitButton = styled.button`
   &:hover {
     color: #fff;
     background-color: #222;
-    box-shadow: inset 0px 2px 4px rgba(0, 255, 255, 0.3),
-      inset 0px 4px 8px rgba(0, 255, 255, 0.3),
-      inset 0px 8px 16px rgba(0, 255, 255, 0.3);
+    box-shadow: inset 0px 2px 4px rgb(244 0 255 / 30%),
+      inset 0px 4px 8px rgb(127 0 255 / 30%),
+      inset 0px 8px 16px rgb(255 0 240 / 30%);
     transition: 0.2s;
     transform: translateY(2px);
   }

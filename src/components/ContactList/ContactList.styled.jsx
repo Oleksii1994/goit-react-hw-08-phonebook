@@ -6,7 +6,7 @@ export const ContactList = styled.ul`
 
   gap: 12px;
 
-  margin-bottom: 36px;
+  // margin-bottom: 36px;
   padding: 15px 25px;
 
   font-size: 20px;

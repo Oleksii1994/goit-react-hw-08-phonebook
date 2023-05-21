@@ -16,7 +16,7 @@ export const RegisterLogInLink = styled(NavLink)`
   height: 32px;
   margin: 0;
   line-height: 43px;
-  padding: 10px 40px;
+  padding: 10px 20px;
 
   font-size: 1rem;
   font-weight: 600;
