@@ -1,5 +1,4 @@
 import { ContactItemLi, DeleteBtn } from './ContactItem.styled';
-// import { deleteContactAction } from 'redux/contactsSlice';
 import { deleteContact } from 'redux/operations';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectVisibleContacts } from 'redux/selectors';

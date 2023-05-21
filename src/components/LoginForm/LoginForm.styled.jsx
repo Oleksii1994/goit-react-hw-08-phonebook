@@ -1,13 +1,3 @@
-// .form {
-//   width: 320px;
-// }
-
-// .label {
-//   display: flex;
-//   flex-direction: column;
-//   margin-bottom: 16px;
-// }
-
 import styled from '@emotion/styled';
 
 export const LoginContainer = styled.div`
@@ -46,8 +36,6 @@ export const LoginLabel = styled.label`
 export const LoginInput = styled.input`
   width: 240px;
   height: 26px;
-  color: #ffffff;
-  background: #0f0f0f;
   border: none;
   border-radius: 5px;
   padding-left: 12px;
