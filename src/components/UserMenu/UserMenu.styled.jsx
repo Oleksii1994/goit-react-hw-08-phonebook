@@ -1,13 +1,3 @@
-// .wrapper {
-//   display: flex;
-//   align-items: center;
-//   gap: 12px;
-// }
-
-// .username {
-//   font-weight: 700;
-// }
-
 import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
@@ -19,11 +9,8 @@ export const Wrapper = styled.div`
 export const LogOutBtn = styled.button`
   height: 32px;
   margin: 0;
-  // line-height: 43px;
   padding: 0px 20px;
 
-  // font-size: 1rem;
-  // font-weight: 500;
   color: #fff;
   background-color: #000000;
   border-radius: 5px;
