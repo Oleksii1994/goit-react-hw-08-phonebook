@@ -1,10 +1,10 @@
-import { RegisterLogInLink } from './AuthNav.styled';
+import { RegisterLogInLink, AuthNavBox } from './AuthNav.styled';
 
 export const AuthNav = () => {
   return (
-    <div>
+    <AuthNavBox>
       <RegisterLogInLink to="/register">Register</RegisterLogInLink>
       <RegisterLogInLink to="/login">Log In</RegisterLogInLink>
-    </div>
+    </AuthNavBox>
   );
 };

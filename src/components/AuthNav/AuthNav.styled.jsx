@@ -1,11 +1,15 @@
 import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
+export const AuthNavBox = styled.div`
+  display: flex;
+  gap: 12px;
+`;
 
 export const RegisterLogInLink = styled(NavLink)`
   height: 32px;
   margin: 0;
   line-height: 43px;
-  padding: 10px 20px;
+  padding: 5px 10px;
 
   font-size: 1rem;
   font-weight: 600;

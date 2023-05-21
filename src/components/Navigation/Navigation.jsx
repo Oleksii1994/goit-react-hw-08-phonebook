@@ -11,8 +11,8 @@ export const Navigation = () => {
   return (
     <nav style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
       {currentLocation.pathname === '/' ? (
-        <a
-          href="/"
+        <NavLink
+          to="/"
           disabled
           style={{
             color: 'rgb(190 127 175)',
@@ -34,7 +34,7 @@ export const Navigation = () => {
             }}
           />
           PhoneBook
-        </a>
+        </NavLink>
       ) : (
         <HomeLink to="/">Home</HomeLink>
       )}
