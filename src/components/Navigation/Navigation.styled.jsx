@@ -5,7 +5,7 @@ export const HomeLink = styled(NavLink)`
   height: 32px;
   margin: 0;
   line-height: 43px;
-  padding: 10px 20px;
+  padding: 5px 10px;
 
   font-size: 1rem;
   font-weight: 700;
@@ -27,11 +27,11 @@ export const ContactsLink = styled(NavLink)`
   height: 32px;
   margin: 0;
   line-height: 43px;
-  padding: 10px 20px;
+  padding: 5px 10px;
 
   font-size: 1rem;
   font-weight: 700;
-  color: #e897f6;
+  color: #fff;
   border-radius: 5px;
 
   &:hover {

@@ -7,7 +7,7 @@ export const Layout = () => {
   return (
     <div
       className="header-box"
-      style={{ maxWidth: 960, margin: '0 auto', padding: '0 16px' }}
+      style={{ maxWidth: '1036px', margin: '0 auto', padding: '0 16px' }}
     >
       <AppBar />
       <Suspense fallback={null}>
